@@ -3,10 +3,21 @@ package com.gmail.shinigamihideo;
 public class Main {
 
 	public static void main(String[] args) {
-		Cat cat1=new Cat("Bob",8,"Black",5,"Siam");
-		Cat cat2=new Cat("Chak",3,"White",3,"yardcat");
+		Cat cat1 = new Cat("Bob", 8, "Black", 5, "Siam");
+		Cat cat2 = new Cat("Chak", 3, "White", 3, "yardcat");
 		System.out.println(cat1);
 		System.out.println(cat2);
-	}
+		
+		System.out.println();
 
+		Triangle tr1 = new Triangle();
+		tr1.areaTr(4, 5, 3);
+		
+		Triangle tr2 = new Triangle();
+		tr1.areaTr(7, 6, 9);
+		
+		Triangle tr3 = new Triangle();
+		tr1.areaTr(5, 8, 5);
+
+	}
 }
