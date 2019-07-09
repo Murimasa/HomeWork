@@ -1,0 +1,12 @@
+package com.gmail.shinigamihideo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Cat cat1=new Cat("Bob",8,"Black",5,"Siam");
+		Cat cat2=new Cat("Chak",3,"White",3,"yardcat");
+		System.out.println(cat1);
+		System.out.println(cat2);
+	}
+
+}
