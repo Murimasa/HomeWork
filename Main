@@ -10,14 +10,14 @@ public class Main {
 		
 		System.out.println();
 
-		Triangle tr1 = new Triangle();
-		tr1.areaTr(4, 5, 3);
+		Triangle tr1 = new Triangle(4, 5, 3);
+		tr1.areaTr();
 		
-		Triangle tr2 = new Triangle();
-		tr1.areaTr(7, 6, 9);
+		Triangle tr2 = new Triangle(7, 6, 9);
+		tr2.areaTr();
 		
-		Triangle tr3 = new Triangle();
-		tr1.areaTr(5, 8, 5);
+		Triangle tr3 = new Triangle(5, 8, 5);
+		tr3.areaTr();
 
 	}
 }
