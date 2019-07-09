@@ -7,17 +7,25 @@ public class Main {
 		Cat cat2 = new Cat("Chak", 3, "White", 3, "yardcat");
 		System.out.println(cat1);
 		System.out.println(cat2);
-		
+
 		System.out.println();
 
 		Triangle tr1 = new Triangle(4, 5, 3);
 		tr1.areaTr();
-		
 		Triangle tr2 = new Triangle(7, 6, 9);
 		tr2.areaTr();
-		
 		Triangle tr3 = new Triangle(5, 8, 5);
 		tr3.areaTr();
+
+		System.out.println();
+
+		Vector3d vect1 = new Vector3d(23, -42, 14);
+		Vector3d vect2 = new Vector3d(11, 89, -4);
+		System.out.println(vect1.toString());
+		System.out.println(vect2.toString());
+		System.out.println("Summ of vectors a & b = " + vect1.sumVect(vect1, vect2));
+		System.out.println("Scalar multiply of vectors a & b = " + vect1.multSdcalar(vect1, vect2));
+		System.out.println("Vector multiply of vectors a & b = " + vect1.multVector(vect1, vect2));
 
 	}
 }
